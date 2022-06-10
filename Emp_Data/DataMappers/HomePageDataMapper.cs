@@ -21,6 +21,7 @@ namespace Emp_Data.DataMappers
                 return instance;
             }
         }
+
         public DataTable MapHomePageData(DataTable employeeTable, string path)
         {
             try

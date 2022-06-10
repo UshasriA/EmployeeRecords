@@ -23,7 +23,7 @@ namespace Emp_Data.Services
                 return instance;
             }
         }
-        public void SaveEmployee(DataTable EmployeeData, Label StatusLbl)
+        public void SaveEmployee(DataTable EmployeeData, Label StatusLbl = null)
         {
             bool isDataValid = HomePageValidations.Instance.ValidateEmployeeData(EmployeeData, StatusLbl);
 
